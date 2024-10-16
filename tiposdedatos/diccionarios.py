@@ -11,3 +11,10 @@ del(cliente["telefono"])
 print(cliente)
 claves = cliente.keys ()
 print(claves)
+print(cliente.values())
+cajero={
+    "nombre":"juan",
+    "apellido":"lopez"
+}
+cliente.update(cajero)
+print(cliente)
