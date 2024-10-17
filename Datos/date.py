@@ -7,7 +7,7 @@ df = pd.read_csv("Datos/poblacion.csv")
 print(df)
 
 x= (df["Date"])
-y= (df["JPN"])
+y= (df["ARG"])
 z= (df["HRV"])
 t= (df["COL"])
 
